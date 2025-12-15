@@ -1,0 +1,5 @@
+1. Transaction Amount shows extreme values: min=-1000000.0, max=9880000.0, median=1000.0, indicating potential high-value outliers.
+2. Most customers have low transaction frequency: median transactions per customer=7.0, max=4091. This will impact risk proxy creation.
+3. Fraud is rare: 193 out of 95662 transactions (0.20%). Fraud patterns may be insufficient for modeling.
+4. Customers primarily use ChannelId_3 channel (56935 transactions), other channels have significantly lower usage.
+5. Most transactions use PricingStrategy 2 (79848 occurrences), which may correlate with transaction value and risk.
