@@ -1,0 +1,14 @@
+data/
+__pycache__/
+*.pyc
+.env
+src.egg-info/
+.vscode/
+.DS_Store
+.ipynb_checkpoints/
+logs/
+mlruns/
+.idea/
+*.sqlite3
+*.log
+venvcr/
