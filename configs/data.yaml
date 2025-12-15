@@ -1,0 +1,3 @@
+data:
+  source: "data/raw/data.csv"
+  processed: "data/processed/credit_data_processed.csv"
